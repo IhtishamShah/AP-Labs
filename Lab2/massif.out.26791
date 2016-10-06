@@ -1,0 +1,1830 @@
+desc: (none)
+cmd: ./lab2
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2104506
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2331537
+mem_heap_B=93184
+mem_heap_extra_B=568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=5197707
+mem_heap_B=93440
+mem_heap_extra_B=576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=5277906
+mem_heap_B=109568
+mem_heap_extra_B=1080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=8140124
+mem_heap_B=109824
+mem_heap_extra_B=1088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=9756452
+mem_heap_B=111872
+mem_heap_extra_B=1152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=11372780
+mem_heap_B=113920
+mem_heap_extra_B=1216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=12989108
+mem_heap_B=115968
+mem_heap_extra_B=1280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=14605436
+mem_heap_B=118016
+mem_heap_extra_B=1344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=16221764
+mem_heap_B=120064
+mem_heap_extra_B=1408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=17838092
+mem_heap_B=122112
+mem_heap_extra_B=1472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=19454420
+mem_heap_B=124160
+mem_heap_extra_B=1536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=20868707
+mem_heap_B=125952
+mem_heap_extra_B=1592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=24219840
+mem_heap_B=126464
+mem_heap_extra_B=1600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=25569648
+mem_heap_B=363320
+mem_heap_extra_B=77416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=26854518
+mem_heap_B=526368
+mem_heap_extra_B=174520
+mem_stacks_B=0
+heap_tree=detailed
+n16: 526368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 152192 in 29 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n3: 55632 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 37536 in 10 places, all below massif's threshold (1.00%)
+  n1: 9056 0x4018C2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 9056 in 8 places, all below massif's threshold (1.00%)
+  n1: 9040 0x4018E5: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 9040 in 8 places, all below massif's threshold (1.00%)
+ n2: 32768 0x401F4E: initMat(int**, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 16384 0x4022D3: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 16384 0x402333: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 30384 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 16384 0x402387: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 14000 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 14000 in 7 places, all below massif's threshold (1.00%)
+ n1: 23392 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23392 in 6 places, all below massif's threshold (1.00%)
+ n2: 18112 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 18112 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 18112 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 18112 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 18112 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 18112 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 18112 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 18112 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 9920 in 7 places, all below massif's threshold (1.00%)
+  n0: 8192 0x4023EA: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n1: 7200 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 7200 in 7 places, all below massif's threshold (1.00%)
+ n1: 7200 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 7200 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=28459963
+mem_heap_B=733352
+mem_heap_extra_B=292424
+mem_stacks_B=0
+heap_tree=detailed
+n16: 733352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 244480 in 29 places, all below massif's threshold (1.00%)
+ n3: 89272 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 65720 in 10 places, all below massif's threshold (1.00%)
+  n1: 11776 0x4018C2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 11776 in 8 places, all below massif's threshold (1.00%)
+  n1: 11776 0x4018E5: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 11776 in 8 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 40304 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 40304 in 6 places, all below massif's threshold (1.00%)
+ n2: 40128 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 23744 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 23744 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 0x402387: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 32768 0x401F4E: initMat(int**, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 16384 0x4022D3: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 16384 0x402333: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n1: 23552 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 23552 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 23552 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 23552 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 23552 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 23552 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 23552 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 23552 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 23552 in 8 places, all below massif's threshold (1.00%)
+ n1: 12640 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 12640 in 7 places, all below massif's threshold (1.00%)
+ n1: 12640 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 12640 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=29744741
+mem_heap_B=895896
+mem_heap_extra_B=388488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=30869557
+mem_heap_B=1038256
+mem_heap_extra_B=469288
+mem_stacks_B=0
+heap_tree=detailed
+n40: 1038256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 140480 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 109408 in 10 places, all below massif's threshold (1.00%)
+  n1: 15536 0x4018C2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 15536 in 8 places, all below massif's threshold (1.00%)
+  n1: 15536 0x4018E5: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 15536 in 8 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 66592 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66592 in 6 places, all below massif's threshold (1.00%)
+ n2: 54800 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 38416 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 38416 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 0x402387: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n2: 32768 0x401F4E: initMat(int**, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 16384 0x4022D3: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 16384 0x402333: main (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+ n1: 31072 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 31072 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 31072 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 31072 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 31072 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 31072 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 31072 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 31072 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 31072 in 8 places, all below massif's threshold (1.00%)
+ n1: 20832 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 20832 in 7 places, all below massif's threshold (1.00%)
+ n1: 20832 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 20832 in 7 places, all below massif's threshold (1.00%)
+ n1: 15776 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15776 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15776 in 8 places, all below massif's threshold (1.00%)
+ n1: 15264 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15264 in 7 places, all below massif's threshold (1.00%)
+ n1: 15264 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15264 in 7 places, all below massif's threshold (1.00%)
+ n1: 15264 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15264 in 7 places, all below massif's threshold (1.00%)
+ n1: 15264 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 15264 in 7 places, all below massif's threshold (1.00%)
+ n0: 4096 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=31675401
+mem_heap_B=1154184
+mem_heap_extra_B=517032
+mem_stacks_B=0
+heap_tree=detailed
+n36: 1154184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 162464 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 127104 in 10 places, all below massif's threshold (1.00%)
+  n1: 17680 0x4018C2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 17680 in 8 places, all below massif's threshold (1.00%)
+  n1: 17680 0x4018E5: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 17680 in 8 places, all below massif's threshold (1.00%)
+ n1: 74112 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 74112 in 6 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 70400 in 9 places, all below massif's threshold (1.00%)
+ n2: 58600 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 42216 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 42216 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 35360 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 35360 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 35360 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 35360 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 35360 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 35360 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 35360 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 35360 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 35360 in 8 places, all below massif's threshold (1.00%)
+ n1: 32768 0x401F4E: initMat(int**, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 32768 in 2 places, all below massif's threshold (1.00%)
+ n1: 24448 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 24448 in 7 places, all below massif's threshold (1.00%)
+ n1: 24448 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 24448 in 7 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+ n1: 17568 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 17568 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=33201368
+mem_heap_B=1351376
+mem_heap_extra_B=628976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=34646661
+mem_heap_B=1533040
+mem_heap_extra_B=736568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=35771132
+mem_heap_B=1680992
+mem_heap_extra_B=818320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=37056070
+mem_heap_B=1843544
+mem_heap_extra_B=914600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=37862713
+mem_heap_B=1960488
+mem_heap_extra_B=958696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=39148435
+mem_heap_B=2122864
+mem_heap_extra_B=1055648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=40515625
+mem_heap_B=2299264
+mem_heap_extra_B=1155808
+mem_stacks_B=0
+heap_tree=detailed
+n39: 2299264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 348096 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 348096 in 12 places, all below massif's threshold (1.00%)
+ n1: 172192 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 172192 in 6 places, all below massif's threshold (1.00%)
+ n2: 111248 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 94864 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 94864 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 66144 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 66144 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 66144 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 66144 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 66144 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 66144 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 66144 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 66144 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 66144 in 8 places, all below massif's threshold (1.00%)
+ n1: 55248 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 55248 in 7 places, all below massif's threshold (1.00%)
+ n1: 55232 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 55232 in 7 places, all below massif's threshold (1.00%)
+ n1: 38432 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 38432 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 38432 in 8 places, all below massif's threshold (1.00%)
+ n1: 37472 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 37472 in 7 places, all below massif's threshold (1.00%)
+ n1: 37472 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 37472 in 7 places, all below massif's threshold (1.00%)
+ n1: 37472 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 37472 in 7 places, all below massif's threshold (1.00%)
+ n1: 37472 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 37472 in 7 places, all below massif's threshold (1.00%)
+ n0: 36864 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=41640527
+mem_heap_B=2442768
+mem_heap_extra_B=1240088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=43408454
+mem_heap_B=2669408
+mem_heap_extra_B=1369440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=44535298
+mem_heap_B=2824952
+mem_heap_extra_B=1439112
+mem_stacks_B=0
+heap_tree=detailed
+n39: 2824952 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 434360 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 434360 in 12 places, all below massif's threshold (1.00%)
+ n1: 218336 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 218336 in 6 places, all below massif's threshold (1.00%)
+ n2: 134496 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 118112 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 118112 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 80736 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 80736 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 80736 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 80736 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 80736 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 80736 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 80736 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 80736 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 80736 in 8 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 69824 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 69824 in 7 places, all below massif's threshold (1.00%)
+ n1: 69824 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 69824 in 7 places, all below massif's threshold (1.00%)
+ n1: 47776 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 47776 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 47776 in 8 places, all below massif's threshold (1.00%)
+ n1: 46784 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 46784 in 7 places, all below massif's threshold (1.00%)
+ n1: 46784 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 46784 in 7 places, all below massif's threshold (1.00%)
+ n1: 46784 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 46784 in 7 places, all below massif's threshold (1.00%)
+ n1: 46784 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 46784 in 7 places, all below massif's threshold (1.00%)
+ n0: 36864 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=46301647
+mem_heap_B=3051856
+mem_heap_extra_B=1569864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=47346124
+mem_heap_B=3184752
+mem_heap_extra_B=1648088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=48551907
+mem_heap_B=3336672
+mem_heap_extra_B=1735728
+mem_stacks_B=0
+heap_tree=detailed
+n39: 3336672 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 517504 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 517504 in 12 places, all below massif's threshold (1.00%)
+ n1: 261760 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 261760 in 6 places, all below massif's threshold (1.00%)
+ n2: 159072 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 142688 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 142688 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 93760 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 93760 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 93760 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 93760 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 93760 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 93760 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 93760 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 93760 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93760 in 8 places, all below massif's threshold (1.00%)
+ n1: 83520 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 83520 in 7 places, all below massif's threshold (1.00%)
+ n1: 83520 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 83520 in 7 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 57280 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 57280 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 57280 in 8 places, all below massif's threshold (1.00%)
+ n1: 56512 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 56512 in 7 places, all below massif's threshold (1.00%)
+ n1: 56512 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 56512 in 7 places, all below massif's threshold (1.00%)
+ n1: 56512 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 56512 in 7 places, all below massif's threshold (1.00%)
+ n1: 56512 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 56512 in 7 places, all below massif's threshold (1.00%)
+ n0: 36864 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=49595444
+mem_heap_B=3473776
+mem_heap_extra_B=1811744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=51042276
+mem_heap_B=3669760
+mem_heap_extra_B=1906336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=51926582
+mem_heap_B=3783112
+mem_heap_extra_B=1971816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=53292612
+mem_heap_B=3960624
+mem_heap_extra_B=2070952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=54979024
+mem_heap_B=4172704
+mem_heap_extra_B=2199352
+mem_stacks_B=0
+heap_tree=detailed
+n39: 4172704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 656592 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 656592 in 12 places, all below massif's threshold (1.00%)
+ n1: 328608 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 328608 in 6 places, all below massif's threshold (1.00%)
+ n2: 197360 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 180976 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 180976 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 116608 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 116608 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 116608 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 116608 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 116608 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 116608 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 116608 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 116608 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 116608 in 8 places, all below massif's threshold (1.00%)
+ n1: 105696 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 105696 in 7 places, all below massif's threshold (1.00%)
+ n1: 105696 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 105696 in 7 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 72512 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 72512 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 72512 in 8 places, all below massif's threshold (1.00%)
+ n1: 71520 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 71520 in 7 places, all below massif's threshold (1.00%)
+ n1: 71520 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 71520 in 7 places, all below massif's threshold (1.00%)
+ n1: 71520 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 71520 in 7 places, all below massif's threshold (1.00%)
+ n1: 71520 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 71520 in 7 places, all below massif's threshold (1.00%)
+ n0: 36864 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=56585389
+mem_heap_B=4379856
+mem_heap_extra_B=2315928
+mem_stacks_B=0
+heap_tree=detailed
+n39: 4379856 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 690688 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 690688 in 12 places, all below massif's threshold (1.00%)
+ n1: 346464 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 346464 in 6 places, all below massif's threshold (1.00%)
+ n2: 206896 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 190512 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 190512 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 122016 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 122016 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 122016 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 122016 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 122016 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 122016 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 122016 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 122016 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 122016 in 8 places, all below massif's threshold (1.00%)
+ n1: 111136 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 111136 in 7 places, all below massif's threshold (1.00%)
+ n1: 111136 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 111136 in 7 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 76320 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76320 in 8 places, all below massif's threshold (1.00%)
+ n1: 75360 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 75360 in 7 places, all below massif's threshold (1.00%)
+ n1: 75360 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 75360 in 7 places, all below massif's threshold (1.00%)
+ n1: 75360 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 75360 in 7 places, all below massif's threshold (1.00%)
+ n1: 75360 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 75360 in 7 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 36864 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=57389118
+mem_heap_B=4493520
+mem_heap_extra_B=2357416
+mem_stacks_B=0
+heap_tree=detailed
+n39: 4493520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 713920 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 713920 in 12 places, all below massif's threshold (1.00%)
+ n1: 357856 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 357856 in 6 places, all below massif's threshold (1.00%)
+ n2: 210032 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 193648 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 193648 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 125984 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 125984 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 125984 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 125984 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 125984 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 125984 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 125984 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 125984 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125984 in 8 places, all below massif's threshold (1.00%)
+ n1: 115104 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 115104 in 7 places, all below massif's threshold (1.00%)
+ n1: 115104 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 115104 in 7 places, all below massif's threshold (1.00%)
+ n1: 77856 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77856 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77856 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 77792 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 77792 in 8 places, all below massif's threshold (1.00%)
+ n1: 76896 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76896 in 7 places, all below massif's threshold (1.00%)
+ n1: 76896 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76896 in 7 places, all below massif's threshold (1.00%)
+ n1: 76896 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76896 in 7 places, all below massif's threshold (1.00%)
+ n1: 76896 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 76896 in 7 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40104E8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40105F9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000CF8: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 36864 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=59078312
+mem_heap_B=4711240
+mem_heap_extra_B=2482408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=60604236
+mem_heap_B=4903648
+mem_heap_extra_B=2598032
+mem_stacks_B=0
+heap_tree=detailed
+n38: 4903648 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 778752 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 778752 in 12 places, all below massif's threshold (1.00%)
+ n1: 392192 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 392192 in 6 places, all below massif's threshold (1.00%)
+ n2: 230080 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 213696 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 213696 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 136480 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 136480 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 136480 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 136480 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 136480 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 136480 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 136480 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 136480 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 136480 in 8 places, all below massif's threshold (1.00%)
+ n1: 125568 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125568 in 7 places, all below massif's threshold (1.00%)
+ n1: 125568 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 125568 in 7 places, all below massif's threshold (1.00%)
+ n0: 109568 in 7 places, all below massif's threshold (1.00%)
+ n1: 85600 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85600 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85600 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 85568 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 85568 in 8 places, all below massif's threshold (1.00%)
+ n1: 84608 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 84608 in 7 places, all below massif's threshold (1.00%)
+ n1: 84608 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 84608 in 7 places, all below massif's threshold (1.00%)
+ n1: 84608 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 84608 in 7 places, all below massif's threshold (1.00%)
+ n1: 84608 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 84608 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=61488378
+mem_heap_B=5017144
+mem_heap_extra_B=2663480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=62773775
+mem_heap_B=5184384
+mem_heap_extra_B=2755336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=63415934
+mem_heap_B=5261920
+mem_heap_extra_B=2801616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=64622585
+mem_heap_B=5431360
+mem_heap_extra_B=2874952
+mem_stacks_B=0
+heap_tree=detailed
+n38: 5431360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 870336 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 870336 in 12 places, all below massif's threshold (1.00%)
+ n1: 437440 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 437440 in 6 places, all below massif's threshold (1.00%)
+ n2: 252672 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 236288 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 236288 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 151232 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 151232 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 151232 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 151232 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 151232 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 151232 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 151232 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 151232 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 151232 in 8 places, all below massif's threshold (1.00%)
+ n1: 140320 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 140320 in 7 places, all below massif's threshold (1.00%)
+ n1: 140320 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 140320 in 7 places, all below massif's threshold (1.00%)
+ n0: 109568 in 7 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 94784 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 94784 in 8 places, all below massif's threshold (1.00%)
+ n1: 93792 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93792 in 7 places, all below massif's threshold (1.00%)
+ n1: 93792 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93792 in 7 places, all below massif's threshold (1.00%)
+ n1: 93792 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93792 in 7 places, all below massif's threshold (1.00%)
+ n1: 93792 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 93792 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=66069039
+mem_heap_B=5614032
+mem_heap_extra_B=2984048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=67675124
+mem_heap_B=5821072
+mem_heap_extra_B=3102912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=68638855
+mem_heap_B=5944560
+mem_heap_extra_B=3173560
+mem_stacks_B=0
+heap_tree=detailed
+n38: 5944560 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 952128 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 952128 in 12 places, all below massif's threshold (1.00%)
+ n1: 480672 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 480672 in 6 places, all below massif's threshold (1.00%)
+ n2: 277456 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 261072 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 261072 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 164448 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 164448 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 164448 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 164448 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 164448 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 164448 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 164448 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 164448 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 164448 in 8 places, all below massif's threshold (1.00%)
+ n1: 153568 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 153568 in 7 places, all below massif's threshold (1.00%)
+ n1: 153568 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 153568 in 7 places, all below massif's threshold (1.00%)
+ n0: 109568 in 7 places, all below massif's threshold (1.00%)
+ n1: 104416 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104416 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104416 in 8 places, all below massif's threshold (1.00%)
+ n1: 104352 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104352 in 8 places, all below massif's threshold (1.00%)
+ n1: 104352 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 104352 in 8 places, all below massif's threshold (1.00%)
+ n1: 103456 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 103456 in 7 places, all below massif's threshold (1.00%)
+ n1: 103456 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 103456 in 7 places, all below massif's threshold (1.00%)
+ n1: 103456 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 103456 in 7 places, all below massif's threshold (1.00%)
+ n1: 103456 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 103456 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=68719158
+mem_heap_B=5953752
+mem_heap_extra_B=3180312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=68799399
+mem_heap_B=5964120
+mem_heap_extra_B=3186168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=68880082
+mem_heap_B=5973776
+mem_heap_extra_B=3192048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=68960297
+mem_heap_B=5983520
+mem_heap_extra_B=3198824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=69040580
+mem_heap_B=5992000
+mem_heap_extra_B=3201776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=69120846
+mem_heap_B=6007480
+mem_heap_extra_B=3207192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=69201080
+mem_heap_B=6017736
+mem_heap_extra_B=3213176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=69281428
+mem_heap_B=6026880
+mem_heap_extra_B=3219976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=69361635
+mem_heap_B=6037088
+mem_heap_extra_B=3226056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=69441881
+mem_heap_B=6047712
+mem_heap_extra_B=3232072
+mem_stacks_B=0
+heap_tree=detailed
+n38: 6047712 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 969024 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 969024 in 12 places, all below massif's threshold (1.00%)
+ n1: 489664 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 489664 in 6 places, all below massif's threshold (1.00%)
+ n2: 282272 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 265888 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 265888 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 167136 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167136 in 8 places, all below massif's threshold (1.00%)
+ n1: 167136 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167136 in 8 places, all below massif's threshold (1.00%)
+ n1: 167136 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167136 in 8 places, all below massif's threshold (1.00%)
+ n1: 167136 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167136 in 8 places, all below massif's threshold (1.00%)
+ n1: 167120 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167120 in 8 places, all below massif's threshold (1.00%)
+ n1: 167120 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167120 in 8 places, all below massif's threshold (1.00%)
+ n1: 167120 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167120 in 8 places, all below massif's threshold (1.00%)
+ n1: 167120 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 167120 in 8 places, all below massif's threshold (1.00%)
+ n1: 156224 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 156224 in 7 places, all below massif's threshold (1.00%)
+ n1: 156224 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 156224 in 7 places, all below massif's threshold (1.00%)
+ n0: 109568 in 7 places, all below massif's threshold (1.00%)
+ n1: 106336 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106336 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106336 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106336 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106336 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106336 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106336 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106336 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106336 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 106304 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 106304 in 8 places, all below massif's threshold (1.00%)
+ n1: 105344 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 105344 in 7 places, all below massif's threshold (1.00%)
+ n1: 105344 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 105344 in 7 places, all below massif's threshold (1.00%)
+ n1: 105344 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 105344 in 7 places, all below massif's threshold (1.00%)
+ n1: 105344 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 105344 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=69522197
+mem_heap_B=6056472
+mem_heap_extra_B=3238808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=69602422
+mem_heap_B=6067424
+mem_heap_extra_B=3244960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=69682856
+mem_heap_B=6077752
+mem_heap_extra_B=3250808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=69763126
+mem_heap_B=6086160
+mem_heap_extra_B=3257536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=69843606
+mem_heap_B=6096896
+mem_heap_extra_B=3263440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=69924013
+mem_heap_B=6105616
+mem_heap_extra_B=3267840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=70004600
+mem_heap_B=6114192
+mem_heap_extra_B=3268816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=70085129
+mem_heap_B=6125520
+mem_heap_extra_B=3269472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=70165749
+mem_heap_B=6133328
+mem_heap_extra_B=3269960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=70246737
+mem_heap_B=6141264
+mem_heap_extra_B=3270456
+mem_stacks_B=0
+heap_tree=detailed
+n38: 6141264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1001664 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 1001664 in 12 places, all below massif's threshold (1.00%)
+ n1: 500960 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 500960 in 6 places, all below massif's threshold (1.00%)
+ n2: 285296 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 268912 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 268912 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 168352 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 160160 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 160160 in 7 places, all below massif's threshold (1.00%)
+ n1: 160160 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 160160 in 7 places, all below massif's threshold (1.00%)
+ n0: 109568 in 7 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=70327693
+mem_heap_B=6149200
+mem_heap_extra_B=3270952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=70410424
+mem_heap_B=6159184
+mem_heap_extra_B=3271408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=73632192
+mem_heap_B=6170448
+mem_heap_extra_B=3271760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=73713319
+mem_heap_B=6178384
+mem_heap_extra_B=3272008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=73794446
+mem_heap_B=6186320
+mem_heap_extra_B=3272256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=76605052
+mem_heap_B=6186576
+mem_heap_extra_B=3272264
+mem_stacks_B=0
+heap_tree=peak
+n38: 6186576 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1010112 0x400CBE: addMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 1010112 in 12 places, all below massif's threshold (1.00%)
+ n1: 521440 0x400DC9: subMat(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 521440 in 7 places, all below massif's threshold (1.00%)
+ n2: 285296 0x400B45: multiplyMat(int**, int**, int**, int, int, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n1: 268912 0x400ED7: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+   n0: 268912 in 7 places, all below massif's threshold (1.00%)
+  n0: 16384 in 1 place, below massif's threshold (1.00%)
+ n1: 168352 0x4012A8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x40125E: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x401214: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x4010EC: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x401136: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x401180: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x4011CA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x401D1C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x401CCA: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n1: 168352 0x4012F2: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 168352 in 8 places, all below massif's threshold (1.00%)
+ n0: 109568 in 7 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40104F: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40101C: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400FE9: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401685: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4016B8: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4016EB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40171B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40174B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40177B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4017AB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x4017DB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40180B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40183B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40186B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x40189B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400FB6: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400F83: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401AEB: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401B1B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401B4B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401B7B: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400F50: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x400F1D: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
+ n1: 107360 0x401082: multiplyMatStras(int**, int**, int**, int) (in /home/ihtisham/Documents/Uni/Semester 5/AP/lab2)
+  n0: 107360 in 8 places, all below massif's threshold (1.00%)
