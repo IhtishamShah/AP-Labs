@@ -1,0 +1,21 @@
+Activity,Priority,User
+1st Student Feedback,0.4,Student
+2nd Student Feedback,0.4,Student
+Assignment Grading,0.25,Faculty
+Assignment Submission(12am),0.6,Student
+Assignment Upload,0.5,Faculty
+Course Registration,0.6,Student
+Data Backup(1am-2am),0.3,Faculty
+Data Backup(3am-4am),0.3,Faculty
+ESE GuideLine Update,0.5,Faculty
+Final Grading,0.6,Faculty
+Lab Task Upload(5pm),0.6,Student
+Lecture Download,0.5,Student
+Lecture Preparation,0.4,Faculty
+Maintenance,0.5,Faculty
+New User Registration,0.3,Student
+Project Grading,0.6,Faculty
+Project Submission(12am),0.6,Student
+Project Upload Link Creation,0.3,Faculty
+Quiz Grading,0.5,Faculty
+Student Result Comments,0.4,Faculty
